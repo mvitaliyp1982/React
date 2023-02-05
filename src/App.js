@@ -15,15 +15,16 @@ class App extends Component {
         <BookDisplay />
       </div>
       <div className="App">
-          <MusicGroupDisplay />
+        <MusicGroupDisplay />
       </div>
       <div className="App">
-          <CulinaryRecipeDisplay />
+        <CulinaryRecipeDisplay />
       </div>
       </>
     );
   }
 }
-<hr></hr>
+
+
 
 export default App;

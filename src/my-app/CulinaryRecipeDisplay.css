@@ -24,7 +24,10 @@ caption {
     margin-left: 1%;
     text-align: justify;
 }
-.imgB {
+.imgR {
     grid-area: img;
-    margin: 11.5% 0% 0% 0%;
+    margin: 9% 0% 0% 0%;
+}
+.imgR img {
+    width: 75%;
 }
