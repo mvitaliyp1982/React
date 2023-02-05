@@ -1,0 +1,27 @@
+table {
+    border: 5px solid black;
+}
+td {
+    border: 1px solid yellow;
+}
+caption {
+    color: yellow;
+    font-weight: bold;
+}
+.block {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:"img table";
+    background-color: skyblue;
+    align-items: start;
+    padding: 1%;
+    margin: 1%;
+}
+.table {
+    grid-area: table;
+    margin-left: 1%;
+}
+.img {
+    grid-area: img;
+    margin: 1% 1% 1% 1%;
+}
